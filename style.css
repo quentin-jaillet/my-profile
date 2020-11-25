@@ -1,0 +1,87 @@
+/* Colors and fonts*/
+body {
+	background: #f1d4d4;
+	color: #6a097d;
+	font-family: 'EB Garamond', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: 'Rubik', sans-serif;
+}
+h1 {
+	color: #6a097d;
+	font-size: 32px;
+	font-weight: 700;
+}
+h2 {
+	color: #000000;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: #c060a1;
+	font-weight: 400;
+	font-family: 'Rubik', sans-serif;
+}
+a:hover {
+	color: #6a097d;
+}
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-grey {
+	background-color: #bbbfca;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-darkpink {
+	background-color: #c060a1;
+	color: #f1d4d4;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-darkpink:hover {
+	background-color: #6a097d;
+	color: #f1d4d4;
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+/*            ICONES DANS LE FOOTER 
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	coolor: rgb(230, 230, 230);
+}
+*/
+#introduction p {
+	margin-bottom: 40px;
+}
+#p1 p {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
